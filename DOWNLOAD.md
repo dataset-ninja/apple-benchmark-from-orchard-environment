@@ -1,6 +1,6 @@
-Dataset **Apple from Orchard Environment** can be downloaded in Supervisely format:
+Dataset **Apple from Orchard Environment** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/t/R/8j/upfoyMojmM8pweYzvkaeM6ODMdCEwL76uwsbr8HwscjCgP9laxMlN1UqQlnch3Liq6K8hchRbQ2hTBRXaUj8PM0SMaDpo0sjnzHYpThdHsAvtB8by50BcXZ42N41.tar)
+ [Download](Set 'HIDE_DATASET=False' to generate download link)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
@@ -13,4 +13,6 @@ import dataset_tools as dtools
 
 dtools.download(dataset='Apple from Orchard Environment', dst_dir='~/dataset-ninja/')
 ```
-The data in original format can be 🔗[downloaded here](https://github.com/dataset-ninja/apple-benchmark-from-orchard-environment)
+Make sure not to overlook the [python code example](https://developer.supervisely.com/getting-started/python-sdk-tutorials/iterate-over-a-local-project) available on the Supervisely Developer Portal. It will give you a clear idea of how to effortlessly work with the downloaded dataset.
+
+The data in original format can be [downloaded here](https://github.com/dataset-ninja/apple-benchmark-from-orchard-environment).
